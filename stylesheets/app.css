@@ -6673,7 +6673,7 @@ form.custom .custom.checkbox.checked:before {
   border: 2px solid #ff8989 !important;
 }
 
-form.custom .custom {
+form.custom .custom, .syllabus-form input, .syllabus-form input:focus, .syllabus-form input:hover {
   border: 1px solid #ededed;
 }
 
