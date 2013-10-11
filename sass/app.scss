@@ -68,6 +68,12 @@ $grey_highlight: #bbbbbb;
 $light: 300;
 $normal: 400;
 $bold: 500;
+
+$error_red: #ff8989;
+$error_border: #ff0000;
+$error_text: #ff0000;
+$error_bg: #ffd7d0;
+
 	
 $breakpoint: 768px;
 
@@ -509,7 +515,7 @@ input {
 
 	.form-fill {
 		width: 100%;
-		border: 1px solid $grey_lighter !important;
+		border: 1px solid $grey_lighter;
 	}
 
 	.form-fill a  {
@@ -622,4 +628,41 @@ form.custom .custom.checkbox.checked:before {
 .lp-textarea {
 	min-height: 40px !important;
 	width: 100% !important;
+}
+
+.error-message {
+	//background-color: $error_bg;
+	//border: 1px solid $error_border;
+	//padding: 7px;
+	color: $error_text;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-left: 10px;
+	border-left: 3px solid $error_border;
+}
+
+.error-tab {
+	background-color: $error_red !important;
+	color: #fff;
+}
+
+.tab-active-error {
+	color: $error_text;
+	background-color: #fff !important;
+}
+
+.error-input {
+	border: 2px solid $error_red !important;
+}
+
+form.custom .custom {
+	border: 1px solid $grey_lighter;
+}
+
+.error-row {
+	border-left: 3px solid $error_border;
+	padding-top: 10px;
 }

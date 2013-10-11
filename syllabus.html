@@ -29,7 +29,7 @@
 <div class="wrapper">
 	<div class="row">
 		<div class="large-12 columns">
-			<img src="http://kevinolsson.com/bin/syllia/images/syllia_big.jpg" class="logo-small" />
+			<img src="images/syllia_big.jpg" class="logo-small" />
 			<ul class="h-nav">
 				<li><a href="#">About</a></li>
 				<li><a href="#">Contact</a></li>
@@ -66,14 +66,21 @@
 	</div>
 
 	<div class="row">
+		<div class="large-12 columns ">
+			<p class="error-message">
+			<i class="icon-warning-sign"></i> Something went wrong with the form submission. Please review the highlighted tabs below.</p>
+		</div>
+	</div>
+
+	<div class="row">
 		<div class="large-12 columns">
 			<ul class="navigation">
 				<li onClick="pane(1)" id="tab1" class="tab-active">Basic Details</li>
 				<li onClick="pane(2)" id="tab2">Learning Outcomes</li>
 				<li onClick="pane(3)" id="tab3">Course Output</li>
 				<li onClick="pane(4)" id="tab4">Rubric</li>
-				<li onClick="pane(5)" id="tab5">Grading System</li>
-				<li onClick="pane(6)" id="tab6">Learning Plan</li>
+				<li onClick="pane(5)" id="tab5" class="error-tab">Grading System</li>
+				<li onClick="pane(6)" id="tab6" class="error-tab">Learning Plan</li>
 				<li onClick="pane(7)" id="tab7">References and Policies</li>
 			</ul>
 		</div>
@@ -462,10 +469,10 @@
 				<div class="row adjust-spacing top-spacing">
 					<div class="large-4 columns">
 						<h5>Assessment Items</h5>
-						<input type="text" placeholder="Chapter Exam" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="Laboratory Exam" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="Laboratory Experiments" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="Final Exam" class=" bottom-spacing-small form-fill"/>
+						<input type="text" placeholder="Chapter Exam" class="error-input  bottom-spacing-small form-fill"/>
+						<input type="text" placeholder="Laboratory Exam" class="error-input  bottom-spacing-small form-fill"/>
+						<input type="text" placeholder="Laboratory Experiments" class="error-input  bottom-spacing-small form-fill"/>
+						<input type="text" placeholder="Final Exam" class="error-input  bottom-spacing-small form-fill"/>
 								<a href="#" class="green-button right-spacing form-button">
 								<i class="icon-plus button-icon"></i>
 								 Add row
@@ -477,16 +484,16 @@
 					</div>
 					<div class="large-3 columns left">
 						<h5>Weight</h5>
-						<input type="text" placeholder="15%" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="15%" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="10%" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="30%" class=" bottom-spacing-small form-fill"/>
+						<input type="text" placeholder="15%" class="error-input  bottom-spacing-small form-fill"/>
+						<input type="text" placeholder="15%" class="error-input  bottom-spacing-small form-fill"/>
+						<input type="text" placeholder="10%" class="error-input  bottom-spacing-small form-fill"/>
+						<input type="text" placeholder="30%" class="error-input  bottom-spacing-small form-fill"/>
 					</div>
 				</div>
 				<div class="row adjust-spacing top-spacing">
 					<div class="large-4 column">
 						<h5>Passing Grade</h5>
-						<input type="text" placeholder="70%" class=" bottom-spacing-small form-fill"/>
+						<input type="text" placeholder="70%" class="error-input bottom-spacing-small form-fill"/>
 					</div>
 				</div>
 				<div class="row divider"></div>
@@ -520,7 +527,7 @@
 								<h5>Learning Outcomes</h5>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row error-row">
 							<div class="large-10 columns">
 								<span class="lo-co-cb">
 									<input type="checkbox"> LO 1
@@ -832,8 +839,16 @@ for the professors of De La Salle University</p>
 	function pane(val) {
 		$(".pane").hide();
 		$("#pane"+val).show();
+
 		$(".navigation").find("li").removeClass("tab-active");
-		$("#tab"+val).addClass("tab-active");
+		$(".navigation").find("li").removeClass("tab-active-error");
+
+		if($("#tab"+val).hasClass("error-tab")){
+			$("#tab"+val).addClass("tab-active-error");
+		} else {
+			$("#tab"+val).addClass("tab-active");
+		}
+		
 		active = val;
 	}
 
