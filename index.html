@@ -1,0 +1,129 @@
+
+<!-- 	Hello source code reader! Feel free to check these codes out.
+		Syllia created by Netcentric.Web
+			- Mitchel Cabuloy
+			- Goldwin Go
+			- Richmond Liclican
+			- Kevin Olsson
+--> 
+		
+
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Foundation 4</title>
+
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="javascripts/vendor/custom.modernizr.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+</head>
+<body>
+<div class="wrapper">
+	<div class="row">
+		<div class="large-12 columns">
+			<ul class="h-nav">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li class="h-login-wrapper"><a class="clear-button" id="h-login-button" href="#">Login</a>
+				<div class="h-login-pane">
+					<form method="post" action="#">
+						<span>Email Address</span>
+						<input type="text" name="email" placeholder="email@dlsu.edu.ph"/>
+						<span>Password</span>
+						<input type="password" name="password" placeholder="••••••••"/>
+
+						<input type="submit" class="green-button" id="h-login-submit" value="SIGN IN"/>	
+						<a href="#">Forgot password?</a>					
+					</form>
+				</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-7 columns large-centered center">
+			<img src="images/syllia_big.jpg" class="logo_big" alt="" />
+			<h4 class="logo_sub">Create and manage DLSU standard syllbuses in a
+			fraction of a time it normally does.</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-12 columns center">
+			<a href="#" class="green-button" id="h-reg-button">Register Now</a>
+			<span class="h-reg-notice">* A valid DLSU email is required</span>
+		</div>
+	</div>
+	<div class="row features">
+		<div class="feature large-4 columns">
+			<h4>A sample key feature</h4>	
+			<p>
+			ristique magnis sit, nunc pulvinar dignissim cum, natoque sit enim eros rhoncus porta ut. Lacus vel velit, magnis tincidunt proin velit sit rhoncus
+			</p>
+		</div>
+		<div class="feature large-4 columns">
+			<h4>A sample key feature</h4>
+			<p>
+			ristique magnis sit, nunc pulvinar dignissim cum, natoque sit enim eros rhoncus porta ut. Lacus vel velit, magnis tincidunt proin velit sit rhoncus
+			</p>
+			
+		</div>
+		<div class="feature large-4 columns">
+			<h4>A sample key feature</h4>
+			<p>
+			ristique magnis sit, nunc pulvinar dignissim cum, natoque sit enim eros rhoncus porta ut. Lacus vel velit, magnis tincidunt proin velit sit rhoncus
+			</p>
+			
+		</div>
+	</div>
+	<div class="push"></div>
+</div>
+	<div class="row footer">
+		<div class="large-7 columns large-centered center">
+				<a href="#">About</a>
+				<a href="#">Contact</a>
+				<a href="#">Register</a>
+				<a href="#">Login</a>
+			<p><br/>© Syllia 2013 - Created by DLSU NetCentric Laboratory, <br/>
+for the professors of De La Salle University</p>
+		</div>
+	</div>
+
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  	<script src="javascripts/foundation/foundation.js"></script>
+	<script src="javascripts/foundation/foundation.abide.js"></script>
+	<script src="javascripts/foundation/foundation.alerts.js"></script>
+	<script src="javascripts/foundation/foundation.clearing.js"></script>
+	<script src="javascripts/foundation/foundation.cookie.js"></script>
+	<script src="javascripts/foundation/foundation.dropdown.js"></script>
+	<script src="javascripts/foundation/foundation.forms.js"></script>
+	<script src="javascripts/foundation/foundation.interchange.js"></script>
+	<script src="javascripts/foundation/foundation.joyride.js"></script>
+	<script src="javascripts/foundation/foundation.magellan.js"></script>
+	<script src="javascripts/foundation/foundation.orbit.js"></script>
+	<script src="javascripts/foundation/foundation.placeholder.js"></script>
+	<script src="javascripts/foundation/foundation.reveal.js"></script>
+	<script src="javascripts/foundation/foundation.section.js"></script>
+	<script src="javascripts/foundation/foundation.tooltips.js"></script>
+	<script src="javascripts/foundation/foundation.topbar.js"></script>
+	  
+  <script>
+    $(document).foundation();
+
+	$( "#h-login-button" ).click(function() {
+	  $( ".h-login-pane" ).toggle();
+	});
+  </script>
+</body>
+</html>

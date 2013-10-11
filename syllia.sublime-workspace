@@ -1,0 +1,484 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gre",
+				"grey_lighter"
+			],
+			[
+				"gr",
+				"grey_lighter"
+			],
+			[
+				"g",
+				"grey_lighter"
+			],
+			[
+				"gry",
+				"grey_lighter"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"grey",
+				"grey_lighter"
+			],
+			[
+				"greyl",
+				"grey_lighter"
+			],
+			[
+				"font",
+				"foundation"
+			],
+			[
+				"green",
+				"green"
+			],
+			[
+				"accoun",
+				"account-tab"
+			],
+			[
+				"accou",
+				"account-tab"
+			],
+			[
+				"acc",
+				"account-tab"
+			],
+			[
+				"account",
+				"account-button"
+			],
+			[
+				"grey-text",
+				"grey-text-light-warning"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"sc",
+				"ScribblesAFMarker"
+			],
+			[
+				"video",
+				"video_title"
+			],
+			[
+				"vid",
+				"video_title"
+			],
+			[
+				"obj",
+				"objectToLike"
+			],
+			[
+				"ob",
+				"objectToLike"
+			],
+			[
+				"addE",
+				"addEventListener"
+			],
+			[
+				"change",
+				"change-pass-button"
+			],
+			[
+				"tello",
+				"trello-token"
+			],
+			[
+				"arg",
+				"argumentField"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/application/config/routes.php",
+		"/C/xampp/htdocs/application/views/services_view.php",
+		"/C/xampp/htdocs/.htaccess",
+		"/C/xampp/htdocs/application/config/config.php",
+		"/E/Syllia-Web/syllabus.html",
+		"/C/xampp/htdocs/application/controllers/services.php",
+		"/C/xampp/htdocs/application/.htaccess",
+		"/C/Users/Kevin/Desktop/config.php",
+		"/C/Users/Kevin/Documents/GitHub/CodeIgniter.Foundation4/application/.htaccess",
+		"/C/xampp/htdocs/assets/sass/app.scss",
+		"/C/xampp/htdocs/assets/sass/_settings.scss",
+		"/C/xampp/htdocs/application/views/shared/header.php",
+		"/C/xampp/htdocs/application/views/shared/footer.php",
+		"/C/xampp/htdocs/application/views/welcome_message.php",
+		"/C/Users/Kevin/Documents/GitHub/Caritas/Caritas/templates/base.html",
+		"/C/Users/Kevin/Documents/GitHub/Caritas/Caritas/static/sass/app.scss",
+		"/E/Syllia-Web/sass/app.scss",
+		"/C/xampp/htdocs/app/includes/footer.php",
+		"/C/xampp/htdocs/app/css/screen.css",
+		"/C/xampp/htdocs/app/modules/User/Controller.php",
+		"/C/xampp/htdocs/app/modules/User/views/privacy.php",
+		"/C/xampp/htdocs/app-old/modules/Act/views/act.php",
+		"/C/xampp/htdocs/app/javascript/functions.js",
+		"/C/Users/Kevin/Desktop/semantic/packaged/css/semantic.css",
+		"/C/Users/Kevin/Desktop/semantic/examples/feed.html",
+		"/C/Users/Kevin/Desktop/semantic/examples/feed.css",
+		"/C/xampp/htdocs/app-old/css/screen.css",
+		"/C/xampp/htdocs/app/modules/User/Model.php",
+		"/C/xampp/htdocs/app/modules/Act/views/act.php",
+		"/C/xampp/htdocs/app/includes/header.php",
+		"/C/xampp/htdocs/app/modules/Facebook/Model.php",
+		"/C/xampp/htdocs/app/modules/Facebook/Controller.php",
+		"/C/xampp/htdocs/app/modules/Privacy/Model.php",
+		"/C/xampp/htdocs/app/modules/Privacy/Controller.php",
+		"/C/xampp/htdocs/app/javascript/default.js",
+		"/C/xampp/htdocs/app/modules/User/views/register.php",
+		"/C/xampp/htdocs/app/javascript/top.js",
+		"/C/xampp/htdocs/js/functions.js",
+		"/C/Users/Kevin/Desktop/Syllia/sass/_settings.scss",
+		"/C/Users/Kevin/Desktop/Syllia/sass/app.scss",
+		"/C/Users/Kevin/Desktop/Syllia/syllabus.html",
+		"/C/Users/Kevin/Desktop/Syllia/index.html",
+		"/E/Websites & Designs/Pre-Caritakathon/index.html",
+		"/C/Users/Kevin/Desktop/syllia/stylesheets/app.css",
+		"/C/Users/Kevin/Desktop/mylocker_view2.php",
+		"/C/Users/Kevin/Desktop/success_view.php",
+		"/C/Users/Kevin/Desktop/sports_view.php",
+		"/C/Users/Kevin/Desktop/mylocker_view.php",
+		"/C/Users/Kevin/Desktop/Caritakathon/index.html",
+		"/C/Users/Kevin/Desktop/Caritakathon/sass/app.scss",
+		"/E/Websites & Designs/CCS Wordpress/sass/style.scss",
+		"/C/Users/Kevin/Desktop/syllia/index.html",
+		"/C/Users/Kevin/Desktop/syllia/sass/app.scss",
+		"/E/Websites & Designs/OnTrack - WebGeek2013 (frontend)/sass/app.scss",
+		"/C/xampp/htdocs/app/modules/Sat/views/sat.php",
+		"/C/xampp/htdocs/app/modules/Story/views/story.php",
+		"/C/xampp/htdocs/app/modules/Story/Controller.php",
+		"/C/xampp/htdocs/app/modules/Act/Controller.php",
+		"/C/xampp/htdocs/app/modules/Sat/Controller.php",
+		"/C/xampp/htdocs/app/modules/Status/Controller.php",
+		"/C/xampp/htdocs/config/routes.php",
+		"/C/xampp/htdocs/config/config.php",
+		"/C/xampp/htdocs/app/modules/Twitter/Controller.php",
+		"/C/Users/Kevin/AppData/Local/Temp/Temp1_Manserve.zip/application/config/config.php",
+		"/C/xampp/htdocs/app/css/style.css",
+		"/C/Users/Kevin/Desktop/index3.php",
+		"/C/xampp/htdocs/app/modules/Object/views/object.php",
+		"/C/xampp/htdocs/app/modules/Object/Controller.php",
+		"/C/xampp/htdocs/app/modules/Story/Model.php",
+		"/C/Users/Kevin/Desktop/test.html",
+		"/C/Users/Kevin/Desktop/index2.php",
+		"/C/Users/Kevin/Desktop/index.php",
+		"/C/xampp/htdocs/app/modules/Object/Model.php",
+		"/C/Users/Kevin/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/htdocs/app/modules/Test123/Controller.php",
+		"/C/xampp/htdocs/app/modules/Test123/views/test123.php",
+		"/C/xampp/htdocs/app/modules/Beta/Model.php",
+		"/C/xampp/htdocs/app/modules/Beta/Controller.php",
+		"/C/xampp/htdocs/app/modules/Beta/views/test123.php",
+		"/C/xampp/htdocs/app/modules/Beta/views/beta.php",
+		"/E/Websites & Designs/coding dump/PrepFactory/prepfactory/app/modules/Facebook/Model.php",
+		"/E/Websites & Designs/coding dump/PrepFactory/prepfactory/app/modules/Facebook/Controller.php",
+		"/E/Websites & Designs/coding dump/PrepFactory/prepfactory/app/modules/Sat/views/sat.php",
+		"/C/xampp/htdocs/index2.php",
+		"/E/Websites & Designs/coding dump/PrepFactory/prepfactory/config/config.php",
+		"/E/Websites & Designs/coding dump/PrepFactory/prepfactory/app/AppController.php",
+		"/C/Users/Kevin/AppData/Local/Temp/7zO90DB.tmp/Controller.php",
+		"/C/Users/Kevin/AppData/Local/Temp/7zO6D92.tmp/Controller.php",
+		"/E/Websites & Designs/OnTrack - WebGeek2013 (frontend)/index.html",
+		"/C/Users/Kevin/Desktop/index.html",
+		"/C/Users/Kevin/AppData/Local/Temp/7zO713F.tmp/sat.php",
+		"/C/xampp/htdocs/app/AppController.php",
+		"/C/xampp/htdocs/app/includes/header-min.php",
+		"/C/xampp/htdocs/lib/View.php",
+		"/C/xampp/htdocs/lib/Controller.php",
+		"/C/xampp/htdocs/app/modules/Act/Model.php",
+		"/C/xampp/htdocs/app/modules/Act/views/sat.php",
+		"/C/Users/Kevin/Documents/GitHub/CodeIgniter.Foundation4/readme.rst",
+		"/C/Users/Kevin/Downloads/index.php",
+		"/C/xampp/htdocs/lib/Model.php",
+		"/C/xampp/htdocs/app/modules/Sat/Model.php",
+		"/C/Users/Kevin/Desktop/_/app/includes/header.php",
+		"/C/Users/Kevin/Desktop/Sat/views/sat.php",
+		"/C/Users/Kevin/Desktop/Controller.php",
+		"/C/Users/Kevin/Desktop/AppController.php",
+		"/C/Users/Kevin/Desktop/AppModel.php",
+		"/C/Users/Kevin/Documents/GitHub/CodeIgniter/readme.rst",
+		"/C/Users/Kevin/Documents/GitHub/CodeIgniter.Foundation4/application/config/config.php",
+		"/C/Users/Kevin/Documents/GitHub/CodeIgniter.Foundation4/application/views/index.html",
+		"/C/Users/Kevin/Documents/CCS Wordpress/sass/style.scss",
+		"/C/Users/Kevin/Documents/GitHub/CodeIgniter.Foundation4/application/views/shared/header.php",
+		"/C/Users/Kevin/Desktop/Foundation/index.html",
+		"/C/Users/Kevin/Documents/GitHub/CodeIgniter.Foundation4/application/views/shared/footer.php",
+		"/C/Users/Kevin/Documents/GitHub/CodeIgniter.Foundation4/application/views/welcome_message.php",
+		"/C/Users/Kevin/Desktop/webgeek2013/index.html",
+		"/C/Users/Kevin/Desktop/DevExpressChartJS-13.1.4/Demos/demos/Charts/Line And Point Series/Line.html",
+		"/C/Users/Kevin/Desktop/webgeek2013/account.html",
+		"/C/Users/Kevin/Desktop/webgeek2013/login-signup.html",
+		"/C/Users/Kevin/Desktop/webgeek2013/dashboard.html",
+		"/C/Users/Kevin/Desktop/webgeek2013/sass/font.scss",
+		"/C/Users/Kevin/Desktop/webgeek2013/sass/app.scss",
+		"/E/Websites & Designs/Webprog MP/application/views/welcome_view.php",
+		"/E/Websites & Designs/Webprog MP/application/views/evacuation_center.php",
+		"/C/Users/Kevin/Desktop/webgeek2013/index2.html",
+		"/C/Users/Kevin/Desktop/webgeek2013/config.rb",
+		"/C/Users/Kevin/Desktop/DevExpressChartJS-13.1.4/Demos/js/dx.chartjs.js",
+		"/C/Program Files (x86)/Steam/SteamApps/common/Sid Meier's Civilization V/Assets/Gameplay/XML/Units/CIV5Controls.xml"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"â€™s ",
+			" %}'",
+			"'{% static \"",
+			"=\"{%",
+			"sign-up",
+			"sign",
+			"signup-form-up",
+			"register",
+			"modal",
+			"signup-form-up",
+			"modal",
+			"signup-form-up",
+			"modal",
+			"signup-form-up",
+			"sign-up",
+			"modal",
+			"sign in",
+			"270px",
+			"0, 0, 0, 0.75",
+			"dropdown",
+			"input",
+			":active",
+			"tab",
+			"act",
+			"url",
+			"facebook",
+			"hello",
+			"lohout",
+			"hello",
+			"login",
+			".or",
+			"autoplay=1",
+			"player",
+			"account",
+			"HR",
+			"144",
+			"192.168.1.12",
+			"English",
+			"class=\"item",
+			"item00",
+			"Act",
+			"sat over",
+			"sat",
+			"SAT",
+			"sat",
+			"SAT",
+			"sat",
+			"act",
+			"ACT",
+			"act",
+			"SAT",
+			"sat",
+			"SAT",
+			"sat",
+			"SAT",
+			"sat",
+			"act over",
+			"sat overview",
+			"next-date",
+			"next",
+			"Next",
+			"Sat",
+			"login-form",
+			"password",
+			"Password",
+			"Username",
+			"username",
+			"=\"",
+			"e.arg",
+			"Text",
+			"argumentText",
+			"SPACE",
+			"ENTER",
+			"enter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'s ",
+			"",
+			"\"<?=$assets;?>",
+			"autoplay=1&amp;api=1&amp;player_id=player",
+			"onClick=\"changeTitle('English: Overview')\"",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "syllia.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
