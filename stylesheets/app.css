@@ -6675,11 +6675,13 @@ form.custom .custom.checkbox.checked:before {
 
 form.custom .custom, .syllabus-form input, .syllabus-form input:focus, .syllabus-form input:hover {
   border: 1px solid #ededed;
+  margin: 0px !important;
 }
 
 .error-required {
   border-left: 3px solid red;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .error-required:before {
@@ -6687,4 +6689,5 @@ form.custom .custom, .syllabus-form input, .syllabus-form input:focus, .syllabus
   color: red;
   display: block;
   margin-bottom: 10px;
+  font-size: 13px;
 }
