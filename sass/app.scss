@@ -185,6 +185,7 @@ input {
 
 	.bottom-spacing-small {
 		margin-bottom: 10px !important;
+		//padding-bottom: 10px !important;
 	}
 
 	.right-spacing {
@@ -516,6 +517,7 @@ input {
 	.form-fill {
 		width: 100%;
 		border: 1px solid $grey_lighter;
+		margin-bottom: 5px;
 	}
 
 	.form-fill a  {
@@ -660,7 +662,7 @@ form.custom .custom.checkbox.checked:before {
 
 form.custom .custom, .syllabus-form input, .syllabus-form input:focus, .syllabus-form input:hover {
 	border: 1px solid $grey_lighter;
-	margin: 0px !important;
+	margin-bottom: 0px !important;
 }
 
 .error-required {
@@ -675,4 +677,8 @@ form.custom .custom, .syllabus-form input, .syllabus-form input:focus, .syllabus
 	display: block;
 	margin-bottom: 10px;
 	font-size: 13px;
+}
+
+.child-bottom-spacing > input {
+	margin-bottom: 10px !important;
 }

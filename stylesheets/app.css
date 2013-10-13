@@ -6539,6 +6539,7 @@ h4, h3, h2, h1 {
 .syllabus-form .form-fill {
   width: 100%;
   border: 1px solid #ededed;
+  margin-bottom: 5px;
 }
 .syllabus-form .form-fill a {
   color: #a9a9a9 !important;
@@ -6675,7 +6676,7 @@ form.custom .custom.checkbox.checked:before {
 
 form.custom .custom, .syllabus-form input, .syllabus-form input:focus, .syllabus-form input:hover {
   border: 1px solid #ededed;
-  margin: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .error-required {
@@ -6690,4 +6691,8 @@ form.custom .custom, .syllabus-form input, .syllabus-form input:focus, .syllabus
   display: block;
   margin-bottom: 10px;
   font-size: 13px;
+}
+
+.child-bottom-spacing > input {
+  margin-bottom: 10px !important;
 }
