@@ -123,7 +123,7 @@
 						<input type="text" placeholder="Computer Technology Department" class="form-fill"/>
 					</div>
 				</div>
-				<div class="row adjust-spacing top-spacing">
+				<div class="row adjust-spacing top-spacing nested">
 
 					<div class="large-4 columns">
 						<div class="row">
@@ -153,7 +153,7 @@
 
 				</div>
 				<div class="row divider"></div>
-				<div class="row adjust-spacing top-spacing">
+				<div class="row adjust-spacing top-spacing nested">
 					<div class="large-2 columns">
 
 						<div class="row">
@@ -225,7 +225,7 @@
 				</div>
 
 				<div class="row divider"></div>
-				<div class="row adjust-spacing top-spacing">
+				<div class="row adjust-spacing top-spacing nested">
 					<div class="large-4 columns">
 
 						<div class="row">
@@ -307,7 +307,7 @@
 					<p class="syllabus-subtitle">On completion of the course, the student is expected to be able to do the following.</p>
 				</div>
 				
-				<div class="row adjust-spacing top-spacing">
+				<div class="row adjust-spacing top-spacing nested">
 					<div class="large-4 columns">
 
 						<div class="row">
@@ -364,7 +364,7 @@
 					</div>
 				</div>
 
-				<div class="row adjust-spacing top-spacing">
+				<div class="row adjust-spacing top-spacing nested">
 					<div class="large-4 columns">
 
 						<div class="row">
@@ -446,7 +446,7 @@
 				</div>
 
 
-				<div class="row adjust-spacing top-spacing">
+				<div class="row adjust-spacing top-spacing nested">
 					<div class="large-4 columns">
 						<div class="row">
 							<div class="large-12 columns">
@@ -474,7 +474,7 @@
 				</div>
 
 
-				<div class="row adjust-spacing top-spacing">
+				<div class="row adjust-spacing top-spacing nested">
 					<div class="large-6 columns left">
 						<div class="row">
 							<div class="large-12 columns">
@@ -560,10 +560,10 @@
 
 			</div>
 			<!-- end of pane 3-->
-
+			<!-- ================================== -->
 			<!-- start of pane 4-->
 			<div id="pane4" class="pane large-11 columns large-centered">
-				<div class="row">
+				<div class="row ">
 					<div class="large-12 column">
 						<h3 class="syllabus-title2">
 							Attach a Rubric
@@ -572,7 +572,7 @@
 						<p class="syllabus-subtitle">Rubrics are created separately from the actual Syllabus so they can be attached to multiple / different Syllabuses without having to retype them each time. Simply select below which Rubric you would like to attach. Alternatively, you can proceed to create a new one (progress here would not be lost).</p>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row nested">
 					<div class="large-4 column left error-required">
 						<select id="customDropdown" class="form-fill">
 							<option>Rubric_NTCOR03_revision5</option>
@@ -603,7 +603,7 @@
 
 			</div>
 			<!-- end of pane 4 -->
-
+			<!-- ================================== -->
 			<!-- start of pane 5 -->
 			<div id="pane5" class="pane large-11 columns large-centered">
 				<div class="row underline">
@@ -613,13 +613,25 @@
 					<!--<span class="syllabus-modified">Modified 53 minutes ago</span>-->
 					<p class="syllabus-subtitle">The student will be graded according to the following:</p>
 				</div>
-				<div class="row adjust-spacing top-spacing">
+
+				<div class="row adjust-spacing top-spacing nested">
+
 					<div class="large-4 columns">
-						<h5>Assessment Items</h5>
-						<input type="text" placeholder="Chapter Exam" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="Laboratory Exam" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="Laboratory Experiments" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="Final Exam" class=" bottom-spacing-small form-fill"/>
+						<div class="row ">
+							<div class="large-12 columns">
+								<h5>Assessment Items</h5>
+							</div>
+						</div>
+						<div class="row bottom-spacing-small">
+							<div class="large-12 columns child-bottom-spacing error-required-many">
+								<input type="text" placeholder="Chapter Exam" class="form-fill"/>
+								<input type="text" placeholder="Laboratory Exam" class="form-fill"/>
+								<input type="text" placeholder="Laboratory Experiments" class="form-fill"/>
+								<input type="text" placeholder="Final Exam" class="form-fill"/>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="large-12 columns">
 								<a href="#" class="green-button right-spacing form-button">
 								<i class="icon-plus button-icon"></i>
 								 Add row
@@ -628,23 +640,45 @@
 								<i class="icon-remove"></i>
 								Remove row
 								</a>
-					</div>
+							</div>
+						</div>	
+					</div>					
+
+
 					<div class="large-3 columns left">
-						<h5>Weight</h5>
-						<input type="text" placeholder="15%" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="15%" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="10%" class=" bottom-spacing-small form-fill"/>
-						<input type="text" placeholder="30%" class=" bottom-spacing-small form-fill"/>
+						<div class="row ">
+							<div class="large-12 columns">
+								<h5>Weight</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns child-bottom-spacing error-required-many">
+								<input type="text" placeholder="15%" class="form-fill"/>
+								<input type="text" placeholder="15%" class="form-fill"/>
+								<input type="text" placeholder="10%" class="form-fill"/>
+								<input type="text" placeholder="30%" class="form-fill"/>
+							</div>
+						</div>
 					</div>
 				</div>
+
+
+
+
+
 				<div class="row adjust-spacing top-spacing">
-					<div class="large-12 column">
-						<h5>Passing Grade</h5>
-					</div>
-				</div>
-				<div class="row adjust-spacing">
-					<div class="large-4 column error-required">
-						<input type="text" placeholder="70%" class="bottom-spacing-small form-fill"/>
+					<div class="large-4 columns">
+						<div class="row">
+							<div class="large-12 column">
+								<h5>Passing Grade</h5>
+							</div>
+						</div>
+					
+						<div class="row">
+							<div class="large-12 column error-required">
+								<input type="text" placeholder="70%" class="bottom-spacing-small form-fill"/>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="row divider"></div>
@@ -662,7 +696,7 @@
 
 			</div>
 			<!-- end of pane 5 -->
-
+			<!-- ================================== -->
 			<!-- start of pane 6 -->
 			<div id="pane6" class="pane large-11 columns large-centered">
 				<div class="row underline">
@@ -698,22 +732,50 @@
 						</span>
 					</div>
 				</div>
-				<div class="row adjust-spacing top-spacing">
+				<div class="row adjust-spacing top-spacing nested">
 					<div class="large-6 columns">
-						<h5>Topic</h5>
-						<textarea class="form-fill form-textarea lp-textarea" name="description" placeholder="Introduction / Orientation"></textarea>
+
+						<div class="row">
+							<div class="large-12 columns">
+								<h5>Topic</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns error-required">
+								<textarea class="form-fill form-textarea lp-textarea" name="description" placeholder="Introduction / Orientation"></textarea>
+							</div>
+						</div>
 					</div>
+
+
 					<div class="large-2 columns left">
-						<h5>Week No.</h5>
-						<input type="text" placeholder="1" class=" bottom-spacing-small form-fill"/>
+						<div class="row">
+							<div class="large-12 columns">
+								<h5>Week No.</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns error-required">
+								<input type="text" placeholder="1" class=" bottom-spacing-small form-fill"/>
+							</div>
+						</div>
 					</div>
+
 					<div class="large-4 columns left">
-						<h5>Learning Activites</h5>
-					    <textarea class="form-fill form-textarea" name="description" placeholder="Course Introduction
+						<div class="row">
+							<div class="large-12 columns">
+								<h5>Learning Activites</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns error-required">
+					    		<textarea class="form-fill form-textarea" name="description" placeholder="Course Introduction
 
 					    Classroom Policies
 
 					    Discussion"></textarea>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="row divider"></div>
@@ -745,27 +807,56 @@
 						</span>
 					</div>
 				</div>
-				<div class="row adjust-spacing top-spacing">
+				<div class="row adjust-spacing top-spacing nested">
 					<div class="large-6 columns">
-						<h5>Topic</h5>
-						<textarea class="form-fill form-textarea lp-textarea" name="description" placeholder="1.0 LAN Design
-						 
-						 <indent>1.1 Switching Lan Architecture
-						 <indent>1.2 Matching Switches to Specific LAN functions"></textarea>
+
+						<div class="row">
+							<div class="large-12 columns">
+								<h5>Topic</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns error-required">
+								<textarea class="form-fill form-textarea lp-textarea" name="description" placeholder="1.0 LAN Design
+
+								<indent>1.1 Switcing Lan Architecture
+
+								<indent>1.2 Matching Switches to Specific LAN functions"></textarea>
+							</div>
+						</div>
 					</div>
+
+
 					<div class="large-2 columns left">
-						<h5>Week No.</h5>
-						<input type="text" placeholder="2" class=" bottom-spacing-small form-fill"/>
+						<div class="row">
+							<div class="large-12 columns">
+								<h5>Week No.</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns error-required">
+								<input type="text" placeholder="2" class=" bottom-spacing-small form-fill"/>
+							</div>
+						</div>
 					</div>
+
 					<div class="large-4 columns left">
-						<h5>Learning Activites</h5>
-					    <textarea class="form-fill form-textarea" name="description" placeholder="Lecture
+						<div class="row">
+							<div class="large-12 columns">
+								<h5>Learning Activites</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns error-required">
+					    		<textarea class="form-fill form-textarea" name="description" placeholder="Lecture
 
-					    Hierarchical Design
+					    		Heiarchical Design
 
-					    Seatwork
+					    		Seatwork
 
-					    Online Chapter Exam"></textarea>
+					    		Online Chapter Exam"></textarea>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="row divider"></div>
@@ -794,7 +885,7 @@
 
 			</div>
 			<!-- end of pane 6 -->
-
+			<!-- ================================== -->
 			<!-- start of pane 7 -->
 			<div id="pane7" class="pane large-11 columns large-centered">
 				<div class="row underline">
@@ -803,8 +894,8 @@
 					</h3>
 					<!--<span class="syllabus-modified">Modified 53 minutes ago</span>-->
 				</div>
-				<div class="row adjust-spacing top-spacing">
-					<div class="large-12 columns">
+				<div class="row adjust-spacing top-spacing bottom-spacing-small">
+					<div class="large-12 columns child-bottom-spacing error-required">
 						<input type="text" class="form-fill bottom-spacing-small" placeholder="Lewis, W. (2008). LAN Switching and Wireless - CCNA Exploration Companion Guide. Cisco Press"/>
 						<input type="text" class="form-fill bottom-spacing-small" placeholder="Stallings, W. (2007). Data and Computer Communications, 8th Edition. Prentice-Hall"/>
 					</div>
@@ -828,10 +919,19 @@
 					<!--<span class="syllabus-modified">Modified 53 minutes ago</span>-->
 						<p class="syllabus-subtitle">Student should follow the standard classroom policies and procedures indicated in Section 4.3 of the Student Handbook. However, these additional policies will be applied:</p>
 				</div>
-				<div class="row adjust-spacing top-spacing">
+				<div class="row adjust-spacing top-spacing nested">
 					<div class="large-4 columns">
-						<h5>Scenario</h5>
-						<input class="form-fill" type"text" placeholder="Assignments and Projects"/>
+
+						<div class="row">
+							<div class="large-12 columns">
+								<h5>Scenario</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns error-required">
+								<input class="form-fill" type"text" placeholder="Assignments and Projects"/>
+							</div>
+						</div>
 					</div>
 					<div class="large-8 columns left">
 						<div class="row">
@@ -839,19 +939,19 @@
 								<h5>Policies</h5>
 							</div>
 						</div>
-						<div class="row">
-							<div class="large-12 columns">
+						<div class="row bottom-spacing-small">
+							<div class="large-12 columns error-required">
 								<textarea class="lo-form form-fill"
 								placeholder="For assignments and projects with hardcopy deliverables, they should be submitted at the beginning of class or as instructed."></textarea>
 							</div>
 						</div>
 						<div class="row">
-							<div class="large-12 columns">
+							<div class="large-12 columns error-required">
 								<textarea class="lo-form form-fill"
 								placeholder="Unless otherwise specified, all assignments are intended for individual work."></textarea>
 							</div>
 						</div>
-						<div class="row">
+						<div class="row bottom-spacing-small">
 							<div class="large-12 columns">
 								<a href="#" class="green-button right-spacing form-button">
 								<i class="icon-plus button-icon"></i>
@@ -865,10 +965,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="row adjust-spacing top-spacing">
+				<div class="row adjust-spacing top-spacing nested">
 					<div class="large-4 columns">
-						<h5>Scenario</h5>
-						<input class="form-fill" type"text" placeholder="Assignments and Projects"/>
+
+						<div class="row">
+							<div class="large-12 columns">
+								<h5>Scenario</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="large-12 columns error-required">
+								<input class="form-fill" type"text" placeholder="Chapter and Final Exams"/>
+							</div>
+						</div>
 					</div>
 					<div class="large-8 columns left">
 						<div class="row">
@@ -876,14 +985,14 @@
 								<h5>Policies</h5>
 							</div>
 						</div>
-						<div class="row">
-							<div class="large-12 columns">
+						<div class="row bottom-spacing-small">
+							<div class="large-12 columns error-required">
 								<textarea class="lo-form form-fill"
 								placeholder="For assignments and projects with hardcopy deliverables, they should be submitted at the beginning of class or as instructed."></textarea>
 							</div>
 						</div>
-						<div class="row">
-							<div class="large-12 columns">
+						<div class="row bottom-spacing-small">
+							<div class="large-12 columns error-required">
 								<textarea class="lo-form form-fill"
 								placeholder="Unless otherwise specified, all assignments are intended for individual work."></textarea>
 							</div>
@@ -939,7 +1048,7 @@
 
 	<div class="row footer">
 		<div class="large-12 columns center">
-<p>© Syllia 2013 - Created by DLSU NetCentric Laboratory,
+<p>&copy; Syllia 2013 - Created by DLSU NetCentric Laboratory,
 for the professors of De La Salle University</p>
 		</div>
 	</div>

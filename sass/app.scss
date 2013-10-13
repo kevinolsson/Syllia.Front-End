@@ -665,10 +665,18 @@ form.custom .custom, .syllabus-form input, .syllabus-form input:focus, .syllabus
 	margin-bottom: 0px !important;
 }
 
-.error-required {
+.error-required, .error-required-many {
 	border-left: 3px solid $error_border;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	//margin-top: 5px;
+}
+
+.nested {
+	.error-required {
+		position: relative;
+		left: -7px;
+	}
 }
 
 .error-required:before {
@@ -679,6 +687,14 @@ form.custom .custom, .syllabus-form input, .syllabus-form input:focus, .syllabus
 	font-size: 13px;
 }
 
-.child-bottom-spacing > input {
+.error-required-many:before {
+	content: "These fields are required!" !important;
+	color: $error_text;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 13px;	
+}
+
+.child-bottom-spacing > input, .child-bottom-spacing > input:hover, .child-bottom-spacing > input:focus {
 	margin-bottom: 10px !important;
 }
