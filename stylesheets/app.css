@@ -6677,7 +6677,14 @@ form.custom .custom, .syllabus-form input, .syllabus-form input:focus, .syllabus
   border: 1px solid #ededed;
 }
 
-.error-row {
+.error-required {
   border-left: 3px solid red;
   padding-top: 10px;
+}
+
+.error-required:before {
+  content: "This field is required!" !important;
+  color: red;
+  display: block;
+  margin-bottom: 10px;
 }
